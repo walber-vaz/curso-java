@@ -13,6 +13,9 @@ public class Aula02TiposPrimitivos {
         char character = 'A';
         boolean isTrue = true;
 
+        // String is not a primitive type in Java - String is a class reference type
+        String name = "Walber Vaz";
+
         System.out.println("int: " + age);
         System.out.println("double: " + salaryDouble);
         System.out.println("float: " + salaryFloat);
@@ -21,5 +24,6 @@ public class Aula02TiposPrimitivos {
         System.out.println("long: " + bigNumber);
         System.out.println("char: " + character);
         System.out.println("boolean: " + isTrue);
+        System.out.println("Nome é (String): " + name);
     }
 }
