@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="./java-logo.png" width="150" />
+</div>
+
 # Estudo de Java
 
 ## Sobre os estudos
