@@ -40,5 +40,14 @@ public class Aula03Operadores {
                 "O número " + number1 + " é igual que " + number2 + "? " + (number1 == number2));
         System.out.println("O número " + number1 + " é diferente que " + number2 + "? "
                 + (number1 != number2));
+
+        // Operadores lógicos
+        // && (AND) || (OR) ! (NOT)
+        System.out.println("O número " + number1 + " é menor que " + number2 + " e maior que 5? "
+                + (number1 < number2 && number1 > 5));
+        System.out.println("O número " + number1 + " é menor que " + number2 + " ou maior que 5? "
+                + (number1 < number2 || number1 > 5));
+        System.out.println("O número " + number1 + " é diferente que " + number2 + "? "
+                + !(number1 == number2));
     }
 }
