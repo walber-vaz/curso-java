@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Aula03Operadores",
+      "request": "launch",
+      "mainClass": "br.com.walbervazdev.java.introducao.Aula03Operadores",
+      "projectName": "curso-java"
+    },
+    {
+      "type": "java",
       "name": "Current File",
       "request": "launch",
       "mainClass": "${file}"
