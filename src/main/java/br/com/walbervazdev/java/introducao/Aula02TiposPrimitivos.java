@@ -4,7 +4,7 @@ public class Aula02TiposPrimitivos {
     public static void main(String[] args) {
         System.out.println("Tipos primitivos");
         // int, double, float, char, byte, short, long, boolean
-        int age = 10;
+        int age = (int) 10000000L;
         double salaryDouble = 2000;
         float salaryFloat = 2500;
         byte ageByte = 10;
