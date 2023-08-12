@@ -25,5 +25,20 @@ public class Aula03Operadores {
         // Resto da divisão
         System.out.println("Resto da divisão entre " + number1 + " e " + number2 + " é: "
                 + (number1 % number2));
+
+        // Operadores relacionais
+        // < > <= >= == !=
+        System.out.println(
+                "O número " + number1 + " é menor que " + number2 + "? " + (number1 < number2));
+        System.out.println(
+                "O número " + number1 + " é maior que " + number2 + "? " + (number1 > number2));
+        System.out.println("O número " + number1 + " é menor ou igual que " + number2 + "? "
+                + (number1 <= number2));
+        System.out.println("O número " + number1 + " é maior ou igual que " + number2 + "? "
+                + (number1 >= number2));
+        System.out.println(
+                "O número " + number1 + " é igual que " + number2 + "? " + (number1 == number2));
+        System.out.println("O número " + number1 + " é diferente que " + number2 + "? "
+                + (number1 != number2));
     }
 }
