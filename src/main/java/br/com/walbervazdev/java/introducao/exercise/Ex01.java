@@ -11,12 +11,12 @@ package br.com.walbervazdev.java.introducao.exercise;
 
 public class Ex01 {
     public static void main(String[] args) {
-        String nome = "Walber Vaz";
-        String endereco = "Trv 1, 123";
-        double salario = 1000.00;
-        String dataRecebimento = "12/08/2023";
+        String name = "Walber Vaz";
+        String address = "Trv 1, 123";
+        double salary = 1000.00;
+        String receivingDate = "12/08/2023";
 
-        System.out.println("Eu " + nome + ", morando no endereço " + endereco
-                + ", confirmo que recebi o salário de " + salario + ", na data " + dataRecebimento);
+        System.out.println("Eu " + name + ", morando no endereço " + address
+                + ", confirmo que recebi o salário de " + salary + ", na data " + receivingDate);
     }
 }
